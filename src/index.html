@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PCCT 2</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/assets/icon.png">
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+            <p id="pccth">PCCT MAIN</p>
+        <p id="result" class="pcn">DESKTOP-M0LEGDR</p>
+        <div id="divs">
+            <p id="titles">POWER</p>
+                    <button id="shtbtn" onclick="shtdwn()"><img src="/assets/icons/shtdwn.png" id="icons">SHUTDOWN</button>
+                    <button id="rsbtn" onclick="rstrt()"><img src="/assets/icons/rstrt.png" id="icons">RESTART</button>
+                    <button id="lgoutbtn" onclick="logout()"><img src="/assets/icons/logout.png" id="icons">LOG OUT</button>
+        </div>
+        <div id="divs">
+            <p id="titles">APPS</p>
+                    <button id="dsbtn" onclick="discord()"><img src="/assets/icons/DISCORD.png" id="icons">DISCORD</button>
+                    <button id="tgbtn" onclick="tgha()"><img src="/assets/icons/tg.png" id="icons">TELEGRAM</button>
+                    <button onclick="firefox()" id="foxbtn"><img src="/assets/icons/firefox.png" id="icons">FIREFOX</button>
+                    <button onclick="explorer()" id="explbtn"><img src="/assets/icons/explicon.png" id="icons">EXPLORER</button>
+                    <button id="steambtn" onclick="steam()"><img id="icons" src="assets/icons/steamico.png">STEAM</button>
+                    <button id="vscbtn" onclick="vsc()"><img src="/assets/icons/vscico.png" id="icons">VS CODE</button>
+                    <button id="tskmgrbtn" onclick="tskmgr()"><img id="icons" src="/assets/icons/tskmgrico.png">TASK MGR</button>
+        </div>
+        <div id="divs">
+            <p id="titles">CONTROL</p>
+                <div id="divs">
+                    <button id="toggle" onclick="drop()"><img id="icons" src="/assets/icons/vlico.png">VOLUME<img id="down" src="/assets/icons/downico.png"></button>
+                    <ul id="menu">
+                        <li><button id="volup" onclick="volup()"><img id="icons" src="/assets/icons/vlupico.png">VOLUME UP</button></li>
+                        <li><button id="voldn" onclick="voldn()"><img id="icons" src="/assets/icons/vldnico.png">VOLUME DOWN</button></li>
+                    </ul>
+                    <button id="trbtn" onclick="Terminate()"><img id="icons" src="/assets/icons/terico.png">TERMINATE APP</button>
+                </div>
+        </div>
+        <div id="bg"></div>
+    </body>
+</html>
